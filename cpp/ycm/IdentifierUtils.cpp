@@ -50,7 +50,7 @@ const char *COMMENT_AND_STRING_REGEX =
   //  3. the escaped double quote inside the string
   "(?<!\\\\)\"(?:\\\\\\\\|\\\\\"|.)*?\"";
 
-const char *IDENTIFIER_REGEX = "[_a-zA-Z]\\w*";
+const char *IDENTIFIER_REGEX = "[_a-zA-Z][\\w_-]*";
 
 // For details on the tag format supported, see here for details:
 // http://ctags.sourceforge.net/FORMAT
